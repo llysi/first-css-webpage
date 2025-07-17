@@ -1,0 +1,39 @@
+/* Page */
+body {
+    font-family: 'Open Sans', sans-serif;
+    text-align: center;
+    background-color:#1a1a1a;
+    color: #333;
+    margin: 50px;
+}
+
+/* Title */
+.title {
+    text-transform: uppercase;
+    color: hsl(244, 100%, 86%);
+    text-decoration: underline;
+    text-decoration-color: hsl(244, 100%, 86%);
+    text-shadow: hsla(237, 100%, 88%, 0.776) 1px 0 10px;
+}
+
+/* Quote */
+.quote-container {
+    margin: 20px auto;
+    width: 80%;
+}
+
+.quote {
+    font-family: 'Carattere', cursive;
+    font-size: 40px;
+    font-style: italic;
+    line-height: 1.6;
+    color: #ffd0f8;
+}   
+
+/* Author */
+.author {
+    font-family: 'Roboto Mono', monospace;
+    font-weight: bold;
+    font-size: 16px;
+    color: lightcoral;
+}
