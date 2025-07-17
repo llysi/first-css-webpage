@@ -1,0 +1,51 @@
+/* Main Header */
+#main-header {
+    background-color: lightblue;
+    text-align: center;
+}
+
+/* Class Selectors */
+.post-title {
+    color: darkgreen;
+    font-size: 28px;
+}
+
+.post-body {
+    line-height: 1.6;
+    font-size: 18px;
+}
+
+.highlight {
+    background-color: yellow;
+    font-weight: bold;
+}
+
+/* Element Selectors */
+p {
+    color: darkslategrey;
+}
+
+h1 {
+    font-family: Arial, sans-serif;
+    font-weight: bold
+}
+
+/* Descendant Selectors */
+#content p {
+    font-family: Georgia;
+}
+
+/* Attribute Selector */
+a[href] {
+    color: blue;
+    text-decoration: none;
+}
+
+a:hover {
+    color: red;
+}
+
+/* Combined Selectors */
+p.post-body {
+    color: navy;
+}
