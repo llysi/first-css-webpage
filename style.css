@@ -8,7 +8,13 @@ header {
     text-align: center;
 }
 
+/* ID Selectors */
 #website-links {
+    color: navy;
+}
+
+/* Combined Selectors */
+a:hover {
     color: navy;
 }
 
