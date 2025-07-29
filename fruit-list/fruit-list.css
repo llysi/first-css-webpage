@@ -1,0 +1,32 @@
+/* LINK STYLING */
+a {
+    color: green;
+    text-decoration: none;
+}
+
+a:visited {
+    color: purple;
+}
+
+a:hover {
+    color: orange;
+    text-decoration: underline;
+}
+
+a:active{
+    color: red;
+}
+
+a:focus {
+    outline: blue dashed;
+}
+
+
+/* LIST STYLING */
+ul {
+    list-style-type: circle;
+}
+
+ul ul {
+    list-style-type: square;
+}
