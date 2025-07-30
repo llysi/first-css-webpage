@@ -24,12 +24,26 @@ a:focus {
 }
 
 
-
 /* LIST STYLING */
 ul {
     list-style-type: circle;
+    padding-left: 20px;
+    margin: 10px;
 }
 
 ul ul {
     list-style-type: square;
+    margin-left: 40px;
 }
+
+li:hover {
+    background-color: lemonchiffon;
+}
+/* BACKGROUND */
+.background-section {
+    background-image: url('fruits.jpg');
+    background-size: cover;
+    background-position: center;
+    padding: 20px;
+}
+
