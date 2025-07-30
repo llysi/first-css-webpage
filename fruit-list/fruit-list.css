@@ -14,15 +14,15 @@ a:hover {
     cursor: pointer;
 }
 
-a:active{
-    color: red;
-}
-
 a:focus {
     outline: 2px blue dashed;
     color: blue;
 }
 
+a:active{
+    outline: 2px red;
+    color: red;
+}
 
 /* LIST STYLING */
 ul {
