@@ -1,6 +1,6 @@
 /* LINK STYLING */
 a {
-    color: green;
+    color: teal;
     text-decoration: none;
 }
 
@@ -11,6 +11,7 @@ a:visited {
 a:hover {
     color: orange;
     text-decoration: underline;
+    cursor: pointer;
 }
 
 a:active{
@@ -18,8 +19,10 @@ a:active{
 }
 
 a:focus {
-    outline: blue dashed;
+    outline: 2px blue dashed;
+    color: blue;
 }
+
 
 
 /* LIST STYLING */
