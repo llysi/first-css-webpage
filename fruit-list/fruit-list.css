@@ -26,14 +26,14 @@ a:focus {
 
 /* LIST STYLING */
 ul {
-    list-style-type: circle;
-    padding-left: 20px;
+    list-style-image: linear-gradient(to left bottom, green, red);
+    padding-left: 40px;
     margin: 10px;
 }
 
 ul ul {
-    list-style-type: square;
-    margin-left: 40px;
+    list-style-image: linear-gradient(to left bottom, yellow, red);
+    margin-left: 20px;
 }
 
 li:hover {
