@@ -1,5 +1,6 @@
 body {
-    font-family: Calibri, sans-serif
+    font-family: Calibri, sans-serif;
+    margin: 15px;
 }
 
 h2 {
@@ -10,7 +11,7 @@ h2 {
     background-color: #ffbfd1;
     color: #911337;
     border: 2px solid #911337;
-    padding: 8px;
+    padding: 3px;
     margin: 3px;
 }
 
@@ -19,6 +20,6 @@ h2 {
     background-color: #911337;
     color: #ffbfd1;
     border: 2px solid #ffbfd1;
-    padding: 8px;
+    padding: 3px;
     margin: 3px;
 }
