@@ -4,8 +4,41 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Float, Clear, and Overflow</title>
+    <link rel="stylesheet" href="float-clear-overflow.css">
 </head>
 <body>
-    
+    <h1>Float, Clear, and Overflow Practice</h1>
+
+    <!-- Float example -->
+    <div class="float-left box">
+        I'm floated left!
+    </div>
+    <div class="float-right box">
+        I'm floated right!
+    </div>
+    <p>This line should wrap around the floated elements. Blah blah blah words words words words words words words words words words words words.</p>
+    <ul>
+        <li>This list should also wrap around floated elements.</li>
+        <li>Is it still wrapped around floated elements?</li>
+        <li>It should still be wrapping around floated elements.</li>
+    </ul>
+
+    <!-- Clear example -->
+    <div class="clear-both break"></div>
+    <p>We cleared the floats, so this paragraph starts below the floated elements and doesn’t wrap around them.</p>
+
+    <!-- Overflow example -->
+    <div class="overflow-hidden box">
+        <strong>Overflow Hidden:</strong> 
+        <p>This text is too long and will be clipped aka hidden. Lorem ipsum dolor sit amet, 
+            consectetur adipiscing elit. Aliquam vehicula. Scooby dooby dooby doo.</p>
+    </div>
+    <div class="overflow-scroll box">
+        <strong>Overflow Scroll:</strong> 
+        <p>This text is too long, but a scrollbar will allow you to see all the content. 
+        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam vehicula.
+        Scooby dooby dooby doo.</p>
+    </div>
+
 </body>
 </html>
