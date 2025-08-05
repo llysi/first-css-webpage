@@ -1,0 +1,10 @@
+.container {
+    display: flex; /* Makes this a flex container */
+    border: 2px solid teal;
+}
+
+.item {
+    padding: 20px;
+    background-color: lightcoral;
+    margin: 5px;
+}
