@@ -1,10 +1,24 @@
-.container {
-    display: flex; /* Makes this a flex container */
-    border: 2px solid teal;
+body {
+    margin: 0px;
+    font-family: Arial, Helvetica, sans-serif;
 }
 
-.item {
-    padding: 20px;
-    background-color: lightcoral;
-    margin: 5px;
+/* --------- NAVBAR LINKS ---------*/
+a {
+    text-decoration: none;
+}
+
+a:focus {
+    border: 2px solid red;
+}
+
+a:hover {
+    color: red;
+}
+
+/* --------- NAVBAR --------- */
+.navbar {
+    display: flex;
+    justify-content: space-around;
+    background-color: pink;
 }
