@@ -8,19 +8,23 @@ body {
 /* --------- NAVBAR --------- */
 .navbar {
     display: flex;
-    align-items: center;
+    flex: 0 1 128px;
     flex-direction: row;
+    align-items: stretch;
     justify-content: center;
     background-color: #32604c;
     height: 64px;
 }
 
-.navbar a{
+.navbar a{ /* BUTTON */
     display: flex;
+    flex-wrap: wrap;
+    flex: 0 0 auto;
     align-items: center;
     justify-content: center;
-    height: 100%;
+    box-sizing: border-box;
     width: 128px;
+    padding: 5px;
     transition: background-color 0.2s ease;
     text-decoration: none;
     color: #e0e0e0;
@@ -32,4 +36,9 @@ body {
 
 .navbar a:active{
     outline: none;
+}
+
+.spacer {
+    flex: 0 1000 100%;
+    min-width: 0px;
 }
