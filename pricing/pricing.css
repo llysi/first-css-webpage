@@ -8,22 +8,21 @@ body {
 /* --------- NAVBAR --------- */
 .navbar {
     display: flex;
-    flex: 0 1 128px;
     flex-direction: row;
     align-items: stretch;
-    justify-content: center;
+    justify-content: stretch;
     background-color: #32604c;
-    height: 64px;
+    min-height: 64px;
 }
 
 .navbar a{ /* BUTTON */
     display: flex;
-    flex-wrap: wrap;
-    flex: 0 0 auto;
+    flex: 0 1 auto;
     align-items: center;
     justify-content: center;
     box-sizing: border-box;
     width: 128px;
+    min-height: 64px;
     padding: 5px;
     transition: background-color 0.2s ease;
     text-decoration: none;
@@ -39,6 +38,6 @@ body {
 }
 
 .spacer {
-    flex: 0 1000 100%;
+    flex: 1 1 auto;
     min-width: 0px;
 }
