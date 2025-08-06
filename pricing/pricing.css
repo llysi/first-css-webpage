@@ -1,24 +1,35 @@
 body {
     margin: 0px;
-    font-family: Arial, Helvetica, sans-serif;
-}
-
-/* --------- NAVBAR LINKS ---------*/
-a {
-    text-decoration: none;
-}
-
-a:focus {
-    border: 2px solid red;
-}
-
-a:hover {
-    color: red;
+    font-family: 'Lexend', sans-serif;
+    font-size: 16px;
+    font-weight: 300;
 }
 
 /* --------- NAVBAR --------- */
 .navbar {
     display: flex;
-    justify-content: space-around;
-    background-color: pink;
+    align-items: center;
+    flex-direction: row;
+    justify-content: center;
+    background-color: #32604c;
+    height: 64px;
+}
+
+.navbar a{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100%;
+    width: 128px;
+    transition: background-color 0.2s ease;
+    text-decoration: none;
+    color: #e0e0e0;
+}
+
+.navbar a:hover{
+    background-color: #4c7362;
+}
+
+.navbar a:active{
+    outline: none;
 }
