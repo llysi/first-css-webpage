@@ -1,0 +1,17 @@
+.container {
+  margin: 20px;
+  height: 500px;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-template-rows: repeat(3, auto);
+  gap: 20px;
+}
+
+.card{
+  background-color: plum;
+  padding: 20px;
+  width: auto;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
