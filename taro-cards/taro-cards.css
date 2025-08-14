@@ -22,9 +22,9 @@
   align-self: stretch;
 }
 #header {
-  min-height: auto;
-  height: 150px;
-  background-color: beige;
+  max-height: 150px;
+  height: auto;
+  background-color: white;
   grid-column: 1 / 4;
   aspect-ratio: auto;
 }
