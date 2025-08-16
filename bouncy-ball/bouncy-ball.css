@@ -1,0 +1,31 @@
+
+.container {
+    display: flex;
+    height: 400px;
+    width: 300px;
+    border: 2px solid black;
+    margin: 20px;
+    align-items: end;
+    justify-content: center;
+}
+
+@keyframes bounce {
+    from {
+        transform: translateY(0);
+    }
+    to {
+        transform: translateY(-350px);
+    }
+}
+
+.ball {
+    height: 50px;
+    width: 50px;
+    border-radius: 50%;
+    background-color: orange;
+    animation: bounce 1s ease-out 1s infinite alternate-reverse both running;
+}
+
+.ball:hover {
+    animation-play-state: paused;
+}
