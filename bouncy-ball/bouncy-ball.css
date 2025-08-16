@@ -1,4 +1,16 @@
 
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif
+}
+
+p {
+    margin-top: 40px;
+}
+
 .container {
     display: flex;
     height: 400px;
@@ -14,7 +26,20 @@
         transform: translateY(0);
     }
     to {
-        transform: translateY(-350px);
+        transform: translateY(-340px);
+    }
+}
+
+@keyframes colorChange {
+    0% {
+        background-color: rgb(17, 33, 101);
+    }
+    60% {
+        background-color: rgb(91, 241, 141);
+
+    }
+    100% {
+        background-color: rgb(243, 243, 105);
     }
 }
 
@@ -23,7 +48,7 @@
     width: 50px;
     border-radius: 50%;
     background-color: orange;
-    animation: bounce 1s ease-out 1s infinite alternate-reverse both running;
+    animation: bounce 1s ease-out 1s infinite alternate-reverse both running, colorChange 1s ease-out 1s infinite alternate-reverse both running
 }
 
 .ball:hover {
