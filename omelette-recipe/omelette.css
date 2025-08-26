@@ -34,8 +34,10 @@ ul, ol {
 }
 
 li {
+    padding: 0px;
     padding-left: 14px;
-    padding-top: 12px;
+    padding-top: 6px;
+    padding-bottom: 6px;
 }
 
 ol li::marker {
@@ -74,4 +76,32 @@ hr {
 
 .image-omelette {
     width: 100%;
+}
+
+.preparation {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin: 10px;
+    background-color: hsl(330, 100%, 98%); /* Rose 50 */
+    line-height: 1.2;
+    padding: 20px;
+    padding-bottom: 16px;
+}
+
+.preparation h2 {
+    color: hsl(332, 51%, 32%); /* Rose 800 */
+    font-family: 'Outfit', sans-serif;
+    font-weight: 600;
+    font-size: 24px;
+    margin: 5px;
+}
+
+.preparation li::marker {
+    color: hsl(332, 51%, 32%);
+}
+
+.preparation li {
+    padding-top: 4px;
+    padding-bottom: 4px;
 }
