@@ -1,4 +1,7 @@
 body {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
     font-family: 'Outfit', sans-serif;
     color: hsl(30, 10%, 34%); /* Stone 600*/
     background-color: hsl(30, 54%, 90%); /* Stone 100 */
@@ -8,6 +11,7 @@ h1 {
     font-family: 'Young Serif', serif;
     color: hsl(24, 5%, 18%); /* Stone 900 */
     font-weight: 400;
+    font-size: 40px;
 }
 
 h2 {
@@ -62,4 +66,12 @@ hr {
     width: 660px;
     padding: 40px;
     line-height: 1.4;
+}
+
+.recipe-section {
+    width: 100%;
+}
+
+.image-omelette {
+    width: 100%;
 }
