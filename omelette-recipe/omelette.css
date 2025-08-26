@@ -18,38 +18,83 @@ h2 {
     font-family: 'Young Serif', serif;
     color: hsl(14, 45%, 36%); /* Brown 800 */
     font-weight: 400;
+    font-size: 28px;
 }
 
-p {
+.recipe-container {
+    display: flex;
+    flex-direction: column;
+    background-color: white;
+    width: 660px;
+    padding: 40px;
     font-size: 16px;
+    border-radius: 18px;
+    margin: 40px;
 }
+
+.recipe-section {
+    width: 100%;
+}
+
+.image-omelette {
+    width: 100%;
+    border-radius: 12px;
+}
+
+
+.preparation {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    background-color: hsl(330, 100%, 98%); /* Rose 50 */
+    padding: 1.25em 1.5em;
+    border-radius: 12px;
+}
+
+.preparation h2 {
+    color: hsl(332, 51%, 32%); /* Rose 800 */
+    font-family: 'Outfit', sans-serif;
+    font-weight: 600;
+    font-size: 1.4em;
+    margin: 0;
+    padding-top: 0.25em;
+}
+
+.preparation li::marker {
+    color: hsl(332, 51%, 32%);
+}
+
+.preparation li {
+    padding-top: 0.25em;
+    padding-bottom: 0.25em;
+    list-style-type: disc;
+}
+
 
 b {
     font-weight: 600;
 }
 
 
-ul, ol {
+li {
+    padding: 0.5em 0 0.5em 1.25em;
+}
+
+ul {
+    margin-left: -15px;
+    list-style-type: square;
+}
+ul li::marker {
+    color: hsl(14, 45%, 36%); /* Brown 800 */
+    font-size: 0.8em;
+}
+
+ol {
     margin-left: -15px;
 }
-
-li {
-    padding: 0px;
-    padding-left: 14px;
-    padding-top: 6px;
-    padding-bottom: 6px;
-}
-
 ol li::marker {
     color: hsl(14, 45%, 36%); /* Brown 800 */
     font-weight: 600;
-    font-size: 16px;
-}
-
-ul li::marker {
-    color: hsl(14, 45%, 36%); /* Brown 800 */
-    font-weight: 400;
-    font-size: 16px;
 }
 
 hr {
@@ -61,47 +106,27 @@ hr {
     padding: 0;
 }
 
-.recipe-container {
-    display: flex;
-    flex-direction: column;
-    background-color: white;
-    width: 660px;
-    padding: 40px;
-    line-height: 1.4;
-}
 
-.recipe-section {
+table {
+    table-layout: fixed;
     width: 100%;
+    border-collapse: collapse;
 }
 
-.image-omelette {
-    width: 100%;
+tr {
+    border-bottom: 1px solid hsl(30, 18%, 87%);
 }
 
-.preparation {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    margin: 10px;
-    background-color: hsl(330, 100%, 98%); /* Rose 50 */
-    line-height: 1.2;
-    padding: 20px;
-    padding-bottom: 16px;
+td {
+    padding: 0.75em;
+    padding-left: 2em;
 }
 
-.preparation h2 {
-    color: hsl(332, 51%, 32%); /* Rose 800 */
-    font-family: 'Outfit', sans-serif;
-    font-weight: 600;
-    font-size: 24px;
-    margin: 5px;
+.nutrition-bottom-row {
+    border-bottom: none;
 }
 
-.preparation li::marker {
-    color: hsl(332, 51%, 32%);
-}
-
-.preparation li {
-    padding-top: 4px;
-    padding-bottom: 4px;
+.nutrition-value {
+    font-weight: 700;
+    color: hsl(14, 45%, 36%); /* Brown 800 */
 }
